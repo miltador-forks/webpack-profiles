@@ -22,11 +22,15 @@
     "url": "https://github.com/barteksc/webpack-profiles/issues"
   },
   "homepage": "https://github.com/barteksc/webpack-profiles#readme",
+  "dependencies": {
+    "colog": "^1.0.4",
+    "extendify": "^1.0.0"
+  },
   "devDependencies": {
     "app-root-path": "^1.0.0",
-    "colog": "^1.0.4",
-    "extendify": "^1.0.0",
-    "webpack": "^1.13.0",
     "yargs": "^4.6.0"
+  },
+  "peerDependencies": {
+    "webpack": "*"
   }
 }
